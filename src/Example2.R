@@ -43,7 +43,7 @@ grap %>%
   xlab("Theta_1")
 
 
-##Graph actual distribution
+##Graph actual density
 grap_real <- as.data.frame(mvrnorm(n=1e6, c(2,3), matrix(c(7,2,2,10), nrow = 2)))
 
 grap_real %>%
